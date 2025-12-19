@@ -4,6 +4,7 @@ import { day3first, day3second } from './day3/index.js'
 import { day4first, day4second } from './day4/index.js'
 import { day5first, day5second } from './day5/index.js'
 import { day6first, day6second } from './day6/index.js'
+import { day7first, day7second } from './day7/index.js'
 
 
 const startTime = performance.now();
@@ -20,5 +21,7 @@ const startTime = performance.now();
 // console.log(await day5second());
 // console.log(await day6first());
 // console.log(await day6second());
+// console.log(await day7first());
+// console.log(await day7second());
 
 console.log(`Время выполнения: ${performance.now() - startTime} мс`);
